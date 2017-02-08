@@ -2,42 +2,12 @@
   "name": "flexboxgrid",
   "version": "1.0.0",
   "description": "Grid based on the flex display property",
-  "style": "./flexboxgrid.css",
-  "main": "./index.js",
-  "bin": {
-    "flexboxgrid": "./generator.js"
-  },
-  "scripts": {
-    "build": "./scripts/build",
-    "test": "tape ./test.js | tap-spec"
-  },
   "repository": {
     "type": "git",
     "url": "git://github.com/sebastianekstrom/flexboxgrid.git"
   },
-  "keywords": [
-    "browser",
-    "flexbox",
-    "grid",
-    "css"
-  ],
-  "author": "@dam",
-  "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/sebastianekstrom/flexboxgrid/issues"
   },
-  "homepage": "https://github.com/sebastianekstrom/flexboxgrid",
-  "devDependencies": {
-    "autoprefixer": "^6.4.0",
-    "cssnano-cli": "^1.0.4",
-    "htmlprocessor": "^0.2.3",
-    "postcss-cli": "^2.5.2",
-    "postcss-custom-properties": "^5.0.1",
-    "tap-spec": "^4.1.1",
-    "tape": "^4.6.0",
-    "uglify-js": "^2.7.0"
-  },
-  "dependencies": {
-    "minimist": "^1.2.0"
-  }
+  "homepage": "https://github.com/sebastianekstrom/flexboxgrid"
 }
